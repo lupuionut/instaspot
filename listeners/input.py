@@ -1,2 +1,5 @@
-def onTextInput(txt):
-    print(txt)
+import state
+
+
+def onTextInput(text):
+    state.results.clear()
